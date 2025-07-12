@@ -103,7 +103,7 @@ public class CryptoApp {
                             //Accessor + Mutator + Seleksi
                             if (jumlahWD <= assets[index].getJumlah()) {
                                 assets[index].setJumlah(assets[index].getJumlah() - jumlahWD);
-                                System.out.printf("Berhasil withdraw %.4f %s\n", jumlahWD, assets[index].getNama());
+                                System.out.println("Berhasil withdraw " + jumlahWD + " " + assets[index].getNama());
                             } else {
                                 System.out.println("Jumlah tidak cukup!");
                             }
