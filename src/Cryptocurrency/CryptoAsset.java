@@ -2,8 +2,8 @@ package Cryptocurrency;
 //class
 public class CryptoAsset {
     //atribut (encapsulation)
-    protected String nama;
-    protected double jumlah;
+    private final String nama;
+    private double jumlah;
 
     //constructor
     public CryptoAsset(String nama, double jumlah) {
