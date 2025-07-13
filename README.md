@@ -44,8 +44,8 @@ CryptoAsset[] assets = {
 3. **Atribut** adalah variabel yang ada dalam class. Pada kode ini, `nama` dan `jumlah` adalah contoh atribut.
 
 ```bash
-protected String nama;
-protected double jumlah;
+private final String nama;
+private double jumlah;
 ```
 
 4. **Constructor** adalah method yang pertama kali dijalankan pada saat pembuatan object. Pada kode ini, constructor ada di dalam class `CryptoAsset`, `Bitcoin`, dan `Solana`.
